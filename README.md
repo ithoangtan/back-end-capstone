@@ -83,13 +83,6 @@ Each endpoint requires a SimpleJWT Token for authorization. Pass the token in th
 {'Authorization': 'JWT <token>'}
 ```
 
-<br>
-
-In Insomnia, add the token as follows
-
-![Untitled](assets/insomnia.png)
-<br>
-
 ### Endpoints for `api` app
 
 ```jsx
@@ -196,12 +189,12 @@ python manage.py test
 It should output something similar to this
 
 ```jsx
-Found 12 test(s).
+Found 10 test(s).
 Creating test database for alias 'default'...
 System check identified no issues (0 silenced).
 ............
 ----------------------------------------------------------------------
-Ran 12 tests in 6.024s
+Ran 10 tests in 5.32s
 
 OK
 Destroying test database for alias 'default'...
